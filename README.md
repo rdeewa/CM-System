@@ -24,7 +24,6 @@ Admins can create course plans, but only faculty members can update the status f
 
 Entities:-
 The system comprises five key entities:
-
 Admin,
 Faculty,
 Course,
