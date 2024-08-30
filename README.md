@@ -1,13 +1,41 @@
-Course Monitoring Systems is used to monitor the course in an organization, and helps system administrators monitor their infrastructure.
+The Course Monitoring System is designed to streamline the process of monitoring courses within an educational organization. It assists system administrators in overseeing their infrastructure and provides an organized way to track the progress of multiple courses, batches, and faculty members.
 
-In an educational Institute there are several courses running parallel every day. For every course there are several batches at same/different time. Every course has a session wise/day wise schedule. It will be difficult for the Faculty Head to know the status of every batch i.e. what is the session taught at each day in a batch.
+In educational institutes where several courses run simultaneously, it becomes challenging for the Faculty Head to keep track of each course's daily progress. This system automates the process, maintaining records of all courses, batches, faculties, and daily updates, making it easier for the Faculty Head to manage and monitor the course plans effectively.
 
-So the Automated Course Monitoring System will keep the records of all the courses, batches, faculties and the day wise update for every batch. It will also help the faculty head to maintain the course plan.
+Key Features:-
+User Authentication:
 
-there are five entities in Course Monitoring Systems i.e. Admin, faculty, Courses, Course-plan and Batch.
+Basic authentication for different user accounts (Admin, Faculty).
+Users can log in by providing the required credentials. After successful authentication, users can access their specific services.
+Role-Based Access:
 
-1. Basic authentication of various user accounts (admin, faculty).
-2. User can log in by filling in the required credentials and after the authentication, the user can enjoy the services.
-3. Both users have different options to perform. Admin can register faculty, and then faculty can access his/her options.
-4. Here, admin and faculty perform CURD (create record, update the record, read/view this, and also can delete such.)
-5. Admin can create course plan but only faculty can fill up the status for the course.
+Admin: Responsible for registering faculty members and managing the system. Admins have the ability to create, update, view, and delete records.
+Faculty: Faculty members can access their specific options once registered by the admin. They can view their assigned courses and update the status of each session in the course plan.
+Course and Batch Management:
+
+Admins can create and manage courses, batch schedules, and course plans.
+Faculty members can update the day-wise status of each batch, keeping the course plan up to date.
+CRUD Operations:
+
+Both Admin and Faculty can perform CRUD (Create, Read, Update, Delete) operations on records relevant to their roles.
+Course Plan Maintenance:
+
+Admins can create course plans, but only faculty members can update the status for each course, ensuring accurate tracking of the educational progress.
+
+Entities:-
+The system comprises five key entities:
+
+Admin,
+Faculty,
+Course,
+Course-plan,
+Batch.
+
+Technologies Used:-
+
+Backend: Java with Hibernate ORM
+
+Database: MySQL
+
+Project Type: Console Application
+
